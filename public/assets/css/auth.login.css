@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&subset=latin,latin-ext);
+* {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.auth-box {
+    padding-top: 15px;
+    background-image: url('../images/transparent-background.png');
+    background-repeat: repeat;
+}
+.auth-box > h1,
+.auth-box > h2,
+.auth-box > h3,
+.auth-box > h4,
+.auth-box > h5,
+.auth-box > h6 {
+    margin-bottom: 0;
+    color: #fff;
+}
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
