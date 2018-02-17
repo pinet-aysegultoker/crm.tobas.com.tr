@@ -241,15 +241,14 @@
                                         <th class="active">KDV Hariç Temel Fiyat</th>
                                         <th class="active">12% Toplu Satış İndirimli Fiyat</th>
                                         <th class="warning">10% Peşin</th>
-                                        <th class="warning">Vade/60 Ay</th>
+                                        <th class="warning">Vade/96 Ay</th>
                                         <th class="info">15% Peşin</th>
-                                        <th class="info">Vade/72 Ay</th>
+                                        <th class="info">Vade/108 Ay</th>
                                         <th class="warning">20% Peşin</th>
                                         <th class="warning">Vade/84 Ay</th>
                                         <th class="info">25% Peşin</th>
-                                        <th class="info">Vade/96 Ay</th>
-                                        <th class="warning">30% Peşin</th>
-                                        <th class="warning">Vade/120 Ay</th>
+                                        <th class="info">Vade/120 Ay</th>
+
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -257,15 +256,13 @@
                                         <td class="active">{{ number_format($apartment->price, 2, ',', '.') }} ₺</td><?php $sales_price = $apartment->price-($apartment->price*0.12);  ?>
                                         <td class="active">{{ number_format($sales_price, 2, ',', '.') }} ₺</td>
                                         <td class="warning">{{ number_format($sales_price*0.1, 2, ',', '.') }} ₺</td>
-                                        <td class="warning">{{ number_format(($sales_price-($sales_price*0.1))/60, 2, ',', '.') }} ₺</td>
+                                        <td class="warning">{{ number_format(($sales_price-($sales_price*0.1))/96, 2, ',', '.') }} ₺</td>
                                         <td class="info">{{ number_format($sales_price*0.15, 2, ',', '.') }} ₺</td>
-                                        <td class="info">{{ number_format(($sales_price-($sales_price*0.15))/72, 2, ',', '.') }} ₺</td>
+                                        <td class="info">{{ number_format(($sales_price-($sales_price*0.15))/108, 2, ',', '.') }} ₺</td>
                                         <td class="warning">{{ number_format($sales_price*0.2, 2, ',', '.') }} ₺</td>
                                         <td class="warning">{{ number_format(($sales_price-($sales_price*0.2))/84, 2, ',', '.') }} ₺</td>
                                         <td class="info">{{ number_format($sales_price*0.25, 2, ',', '.') }} ₺</td>
-                                        <td class="info">{{ number_format(($sales_price-($sales_price*0.25))/96, 2, ',', '.') }} ₺</td>
-                                        <td class="warning">{{ number_format($sales_price*0.3, 2, ',', '.') }} ₺</td>
-                                        <td class="warning">{{ number_format(($sales_price-($sales_price*0.3))/120, 2, ',', '.') }} ₺</td>
+                                        <td class="info">{{ number_format(($sales_price-($sales_price*0.25))/120, 2, ',', '.') }} ₺</td>
                                     </tr>
                                 </tbody>
                             </table>

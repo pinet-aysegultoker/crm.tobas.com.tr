@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="87b3b29e-f163-45e8-97c7-713c756afb5e" name="crm.tobas.com.tr" url="http://crm.tobas.com.tr">
+        <fileTransfer host="crm.tobas.com.tr" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

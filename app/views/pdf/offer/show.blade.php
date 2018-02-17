@@ -281,7 +281,7 @@
                             <tr>
                                 <th class="warning">Plan</th>
                                 <th class="info">Peşinat</th>
-                                <th class="info">Aylık Ödeme</th>
+                                <th class="info">Başlangıç Taksit Tutarı</th>
                                 <th class="info">Toplam Vade</th>
                             </tr>
                         </thead>
